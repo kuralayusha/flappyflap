@@ -1,0 +1,22 @@
+{
+  "bird": {
+    "gravity": 0.5,
+    "jumpStrength": -8,
+    "position": {
+      "x": 50,
+      "y": 250
+    },
+    "maxFallSpeed": 10,
+    "maxRiseSpeed": -10
+  },
+  "pipe": {
+    "width": 60,
+    "gap": 150,
+    "speed": 3,
+    "interval": 2000
+  },
+  "game": {
+    "width": 800,
+    "height": 600
+  }
+}
