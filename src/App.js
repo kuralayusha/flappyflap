@@ -74,7 +74,7 @@ function App() {
             prev.length > 0 &&
             prev[0].x + config.pipe.width < config.bird.position.x
           ) {
-            setScore((prevScore) => prevScore + 1 / 2);
+            setScore((prevScore) => prevScore + 1);
             return prev.slice(1);
           }
           return prev;
